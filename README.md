@@ -1,0 +1,2 @@
+# UpdateIpToCloudflare
+用于将本机的ip定时向Cloudflare中进行更新，可以自行设置更新时长
