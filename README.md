@@ -2,8 +2,8 @@
 获取电脑特定网卡的ipv4地址，定时更新到Cloudflare中，可以自行设置更新时长
 
 代码默认更新时长是15分钟一次；
-文件中要更改的参数如下：
-set "log_file=E:\update_ip_to_domain\update_log.txt"          REM 日志文件update_log.txt的存储路径，最好是绝对路径，因为Windows中运行计划任务时是根部目录，日志文件不好找
+文件中要更改的参数如下：  
+set "log_file=E:\update_ip_to_domain\update_log.txt"          REM 日志文件update_log.txt的存储路径，最好是绝对路径，因为Windows中运行计划任务时是根部目录，日志文件不好找  
 set "interval=900"         REM 执行的间隔时间，单位是 秒，默认是15分钟
 set "API_EMAIL=XXXXXX@XXX.com"       REM Cloudflare对应的邮箱
 set "API_KEY=xxxxxxxxxxxxxxxxxxxxxxxxxxxxxxxx"     REM 在Cloudflare界面中找，  个人资料/API令牌/API密钥/Global API Key
