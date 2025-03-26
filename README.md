@@ -2,7 +2,7 @@
 获取电脑特定网卡的ipv4地址，定时更新到Cloudflare中，可以自行设置更新时长
 
 默认更新时长是15分钟一次；  
-！！！一定要先修改参数再运行！！！  
+！！！所有.bat文件一定要先修改参数再运行！！！  
 文件中要更改的参数如下：  
 REM 日志文件update_log.txt的存储路径，最好是绝对路径，因为Windows中运行计划任务时是根部目录，日志文件不好找  
 set "log_file=E:\update_ip_to_domain\update_log.txt"       
